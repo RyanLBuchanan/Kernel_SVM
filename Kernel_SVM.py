@@ -10,3 +10,5 @@ import pandas as pd
 dataset = pd.read_csv('Social_Network_ads.csv')
 X = dataset.iloc[:, 2:4].values
 y = dataset.iloc[:, -1].values
+
+# Split dataset
